@@ -63,27 +63,50 @@ export default {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: "0",
-          },
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
+        },
+        "float": {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-20px)" },
+        },
+        "gradient-border": {
+          "0%, 100%": { backgroundPosition: "0% 50%" },
+          "50%": { backgroundPosition: "100% 50%" },
+        },
+        "pulse-glow": {
+          "0%": { boxShadow: "0 0 0 0 hsl(0 77% 65% / 0.7)" },
+          "70%": { boxShadow: "0 0 0 15px hsl(0 77% 65% / 0)" },
+          "100%": { boxShadow: "0 0 0 0 hsl(0 77% 65% / 0)" },
+        },
+        "fade-in-up": {
+          from: { opacity: "0", transform: "translateY(40px)" },
+          to: { opacity: "1", transform: "translateY(0)" },
+        },
+        "bg-float": {
+          "0%, 100%": { transform: "translateY(0) rotate(0deg)" },
+          "25%": { transform: "translateY(-20px) rotate(90deg)" },
+          "50%": { transform: "translateY(0) rotate(180deg)" },
+          "75%": { transform: "translateY(20px) rotate(270deg)" },
         },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "float": "float 6s ease-in-out infinite",
+        "gradient-border": "gradient-border 4s ease infinite",
+        "pulse-glow": "pulse-glow 2s infinite",
+        "fade-in-up": "fade-in-up 1s ease-out forwards",
+        "bg-float": "bg-float 20s infinite linear",
       },
     },
   },
