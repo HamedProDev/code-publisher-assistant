@@ -10,12 +10,12 @@ const contactItems = [
   {
     icon: Mail,
     title: 'Email',
-    lines: ['hamedhussein001@gmail.com', 'hamussein01@gmail.com'],
+    lines: ['hamedhussein001@gmail.com', 'hamussein01@gmail.com','novasoftrwanda'],
   },
   {
     icon: Github,
     title: 'GitHub',
-    lines: ['github.com/hameddevpro01'],
+    lines: ['github.com/hamedprodev'],
   },
   {
     icon: MapPin,
