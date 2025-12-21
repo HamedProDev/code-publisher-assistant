@@ -11,7 +11,7 @@ const Footer = () => {
           
           <div className="flex gap-6">
             <a 
-              href="https://github.com/hameddevpro01" 
+              href="https://github.com/hamedprodev" 
               target="_blank"
               rel="noopener noreferrer"
               className="w-14 h-14 rounded-full bg-foreground/5 flex items-center justify-center text-foreground text-xl transition-all duration-400 hover:text-primary hover:translate-y-[-10px] hover:scale-110 hover:bg-primary/10"
@@ -38,7 +38,7 @@ const Footer = () => {
         
         <div className="text-center pt-6 border-t border-foreground/5">
           <p className="text-muted-foreground text-sm">
-            © 2025 Hamed Hussein. All rights reserved. | Full Stack Developer based in Rwanda
+            © 2025 Hamed Hussein. All rights reserved. | Nova Soft Rwanda
           </p>
         </div>
       </div>
