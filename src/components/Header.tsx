@@ -35,7 +35,7 @@ const Header = () => {
             href="#home" 
             className="text-2xl font-extrabold text-gradient tracking-wide"
           >
-            HamedDev
+            HamedPROdev
           </a>
 
           {/* Desktop Navigation */}
