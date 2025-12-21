@@ -10,7 +10,7 @@ const contactItems = [
   {
     icon: Mail,
     title: 'Email',
-    lines: ['hamedhussein001@gmail.com', 'hamussein001@gmail.com'],
+    lines: ['hamedhussein001@gmail.com', 'hamussein01@gmail.com'],
   },
   {
     icon: Github,
