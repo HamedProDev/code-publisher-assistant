@@ -118,7 +118,7 @@ const Footer = () => {
             © {currentYear} Lycée de Ruhango Ikirezi Technical Secondary School. All Rights Reserved.
           </p>
           <p className="text-background/50 text-xs mt-2 flex items-center justify-center gap-1">
-            Designed with <Heart className="w-3 h-3 text-destructive" /> for technical education in Rwanda
+            Designed with <Heart className="w-3 h-3 text-destructive" /> by <a href="https://hamedprodev.lovable.app" style={{ color: "white", textDecoration:"underline" }}>Hamed Hussein</a>
           </p>
         </div>
       </div>

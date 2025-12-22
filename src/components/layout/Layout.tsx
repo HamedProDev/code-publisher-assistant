@@ -10,7 +10,7 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="flex-1 pt-[120px] md:pt-[130px]">
+      <main className="flex-1 pt-[120px] md:pt-[130px] overflow-y-auto">
         {children}
       </main>
       <Footer />

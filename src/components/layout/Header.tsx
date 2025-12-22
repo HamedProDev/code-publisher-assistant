@@ -105,9 +105,10 @@ const Header = () => {
                 />
               </Link>
             ))}
+            {/*
             <Link to="/admin">
               <Button variant="outline" size="sm">Admin</Button>
-            </Link>
+            </Link> */}
             <Link to="/admissions">
               <Button size="sm">Apply Now</Button>
             </Link>
