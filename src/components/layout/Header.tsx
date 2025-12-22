@@ -145,9 +145,9 @@ const Header = () => {
             </Link>
           ))}
           <div className="flex flex-col gap-3 mt-4">
-            <Link to="/admin" onClick={() => setIsMenuOpen(false)}>
+            {/*<Link to="/admin" onClick={() => setIsMenuOpen(false)}>
               <Button variant="outline" className="w-full">Admin Dashboard</Button>
-            </Link>
+            </Link> */}
             <Link to="/admissions" onClick={() => setIsMenuOpen(false)}>
               <Button className="w-full">Apply Now</Button>
             </Link>
