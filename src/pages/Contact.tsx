@@ -116,7 +116,7 @@ const Contact = () => {
                       />
                     </div>
                     <Button type="submit" size="lg" className="gap-2">
-                      <Send className="w-4 h-4" /> Send Message
+                      <Send className="w-4 h-4" /> <a href="mailto:hamedhussein001@gmail.com">Send Message</a>
                     </Button>
                   </form>
                 </div>
