@@ -1,29 +1,35 @@
-import { Helmet } from "react-helmet-async";
-import Layout from "@/components/layout/Layout";
-import HeroCarousel from "@/components/home/HeroCarousel";
-import QuickLinks from "@/components/home/QuickLinks";
-import WelcomeSection from "@/components/home/WelcomeSection";
-import ProgramsSection from "@/components/home/ProgramsSection";
-import StatsSection from "@/components/home/StatsSection";
+import { Helmet } from 'react-helmet-async';
+import BackgroundElements from '@/components/ui/BackgroundElements';
+import Header from '@/components/Header';
+import Hero from '@/components/Hero';
+import About from '@/components/About';
+import Projects from '@/components/Projects';
+import Contact from '@/components/Contact';
+import Footer from '@/components/Footer';
+import ScrollToTop from '@/components/ScrollToTop';
 
 const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Lycée de Ruhango Ikirezi TSS | Technical Secondary School of Excellence in Rwanda</title>
-        <meta 
-          name="description" 
-          content="Lycée de Ruhango Ikirezi Technical Secondary School - A leading TVET institution in Rwanda offering programs in Masonry, Culinary Arts, Computer Application, Automobile Technology, Tailoring, and Tourism." 
-        />
-        <meta name="keywords" content="Lycée de Ruhango, TVET Rwanda, Technical School Rwanda, Vocational Training Rwanda, Ruhango District" />
+        <title>Hamed Hussein | Full Stack Developer</title>
+        <meta name="description" content="Hamed Hussein - Full Stack Developer based in Kigali, Rwanda. Expert in React, Node.js, Python, and modern web technologies. Available for hire." />
+        <meta name="keywords" content="Hamed Hussein, Full Stack Developer, React Developer, Node.js Developer, Web Developer Rwanda, Kigali Developer" />
+        <link rel="canonical" href="https://hameddev.com" />
       </Helmet>
-      <Layout>
-        <HeroCarousel />
-        <QuickLinks />
-        <WelcomeSection />
-        <ProgramsSection />
-        <StatsSection />
-      </Layout>
+      
+      <div className="min-h-screen">
+        <BackgroundElements />
+        <Header />
+        <main>
+          <Hero />
+          <About />
+          <Projects />
+          <Contact />
+        </main>
+        <Footer />
+        <ScrollToTop />
+      </div>
     </>
   );
 };
