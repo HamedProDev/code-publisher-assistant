@@ -31,8 +31,8 @@ const projects = [
     image: projectRestaurant,
   },
   {
-    title: 'Fitness Tracking App',
-    description: 'A mobile-friendly fitness app with workout tracking, progress charts, and personalized exercise recommendations.',
+    title: 'Movie Streaming Website',
+    description: 'A movie streaming platform with user authentication, video playback, and personalized recommendations.',
     technologies: ['React Native', 'Firebase', 'Chart.js', 'Google Fit API'],
     image: projectFitness,
   },
