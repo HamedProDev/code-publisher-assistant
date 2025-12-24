@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-5">
         <div className="flex flex-col md:flex-row justify-between items-center mb-10 gap-8">
           <a href="#home" className="text-2xl font-extrabold text-gradient">
-            HamedPROdev
+            HamedPRO
           </a>
           
           <div className="flex gap-6">
@@ -38,7 +38,7 @@ const Footer = () => {
         
         <div className="text-center pt-6 border-t border-foreground/5">
           <p className="text-muted-foreground text-sm">
-            © 2025 Hamed Hussein. All rights reserved. | Nova Soft Rwanda
+            © 2025 Hamed Hussein. All rights reserved. | <a href="https://novasoftrw.vercel.app">Nova Soft Rwanda</a>
           </p>
         </div>
       </div>
